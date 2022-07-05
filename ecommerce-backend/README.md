@@ -1,6 +1,6 @@
-## Projeto LabEcommerce
 
-Welcome to LabEcommerce database. :robot:
+
+## Welcome to LabEcommerce database. :robot:
 
 Here are this projects functionalities :gear :
 
