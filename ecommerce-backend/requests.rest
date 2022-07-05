@@ -1,0 +1,48 @@
+
+
+GET http://localhost:3003/users
+###
+
+GET http://localhost:3003/products?name=%&orderType=DESC
+###
+
+GET http://localhost:3003/productValue/36bf7ca7-5ce2-4a56-a226-646707356aee
+###
+
+GET http://localhost:3003/users/b74afa45-bfcc-4012-8c0c-fdd5f3866445/purchases
+
+###
+
+http://localhost:3003/purchases
+
+DELETE http://localhost:3003/users/5c7af8dc-d613-49a9-9776-8279d21127c1
+###
+
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+"name":"Yana Costa",
+"email": "npcyen@mail.com",
+"password":"buyastation89"
+}
+###
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+"name":"Vintage Car Restoration Services",
+"price": 400.00,
+"image_url":"https://i.picsum.photos/id/133/2742/1828.jpg?hmac=0X5o8bHUICkOIvZHtykCRL50Bjn1N8w1AvkenF7n93E"
+}
+###
+
+POST http://localhost:3003/purchases
+Content-Type: application/json
+
+{
+"user_id":"f282fea2-ac65-40d6-bbca-135ba24118ad",
+"product_id": "40d65437-9940-43f0-8ede-8227e54ac954",
+"quantity":20
+}
+###
